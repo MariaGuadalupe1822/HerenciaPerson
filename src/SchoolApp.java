@@ -26,9 +26,4 @@ public interface SchoolApp {
         System.out.println("Soy una persona " + student1.toString());
         System.out.println("Soy una persona " + teacher1.toString());
     }
-
-
-
-
-
 }
