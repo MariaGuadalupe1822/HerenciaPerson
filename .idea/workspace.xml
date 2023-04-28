@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40ae4eb8-29d9-4f5d-8ff4-9ec324219afd" name="Changes" comment="&quot;Se crea HerenciPerson&quot;" />
+    <list default="true" id="40ae4eb8-29d9-4f5d-8ff4-9ec324219afd" name="Changes" comment="&quot;Se crea HerenciaPerson&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Interfases/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfases/AlumnoTrabajador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfases/Becable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfases/Contratable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfases/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfases/InterfaseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfases/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -30,14 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Mis proyectos/Herencia"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Mis proyectos/Herencia&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.InterfaseApp">
+    <configuration name="InterfaseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfases.InterfaseApp" />
+      <module name="Herencia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SchoolApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SchoolApp" />
       <module name="Herencia" />
@@ -47,6 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaseApp" />
         <item itemvalue="Application.SchoolApp" />
       </list>
     </recent_temporary>
@@ -102,11 +125,19 @@
       <option name="project" value="LOCAL" />
       <updated>1680283743695</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;Se crea HerenciaPerson&quot;">
+      <created>1680283940888</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680283940888</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Se crea HerenciPerson&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Se crea HerenciPerson&quot;" />
+    <MESSAGE value="&quot;Se crea HerenciaPerson&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Se crea HerenciaPerson&quot;" />
   </component>
 </project>
