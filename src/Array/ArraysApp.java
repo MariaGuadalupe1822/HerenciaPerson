@@ -10,6 +10,7 @@ public class ArraysApp {
             }
         }
         return false;
+
     }
     public static void main(String[] args) {
         String[] zoo = new String[3];
