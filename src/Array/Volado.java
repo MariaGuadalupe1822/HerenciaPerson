@@ -3,28 +3,25 @@ import java.security.SecureRandom;
 public class Volado {
 
     public static void main(String[] args) {
-
         SecureRandom random = new SecureRandom();
-        int[] volado = new int[3];
+        int [] volado=new int[3];
+        final int AGUILA=1;
+        final int SOL=2;
+        final int LANZAMIENTOS=100;
+        int lanzamiento;
+        volado[AGUILA]=0;
+        volado[SOL]=1;
 
-        int lanzamientos = 100;
-        int aguila = 1;
-        int sol = 2;
-        volado[aguila] = 0;
-        volado[sol] = 0;
-
-
-        for (int i = 0; i <= lanzamientos; i++) {
-            lanzamientos=random.nextInt(2)+1;
-            if(lanzamientos==aguila) {
-                volado[aguila] += 1;
-            }
-                if (lanzamientos==sol){
-                    volado[sol] += 1;
-                }
+        for (int i=0; i<LANZAMIENTOS; i++){
+            lanzamiento=random.nextInt(2)+1;
+            volado[lanzamiento]=volado[lanzamiento]+1;
+            /*if (lanzamiento==AGUILA){
+                volado[AGUILA]+=1;
+            }if (lanzamiento==SOL){
+                volado[SOL]+=1;
+            }*/
         }
-
-        System.out.println("Cayó " + volado [aguila]+ " veces aguila");
-        System.out.println("Cayó " + volado [sol]+  " veces sol");
+        System.out.println("Aguila cayo "+volado[AGUILA]+" veces");
+        System.out.println("Sol cayo "+volado[SOL]+" veces");;
     }
 }
